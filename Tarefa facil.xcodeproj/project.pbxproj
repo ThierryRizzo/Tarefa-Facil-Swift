@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2405B5142C970E69001E9FCB /* BotaoMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405B5132C970E69001E9FCB /* BotaoMain.swift */; };
+		2405B5182C9757F4001E9FCB /* Listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405B5172C9757F4001E9FCB /* Listas.swift */; };
 		2452C29F2C8BA99A0059DD11 /* Tarefa_facilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */; };
 		2452C2A12C8BA99A0059DD11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452C2A02C8BA99A0059DD11 /* ContentView.swift */; };
 		2452C2A32C8BA99C0059DD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452C2A22C8BA99C0059DD11 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2405B5132C970E69001E9FCB /* BotaoMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoMain.swift; sourceTree = "<group>"; };
+		2405B5172C9757F4001E9FCB /* Listas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listas.swift; sourceTree = "<group>"; };
 		2452C29B2C8BA99A0059DD11 /* Tarefa facil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarefa facil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa_facilApp.swift; sourceTree = "<group>"; };
 		2452C2A02C8BA99A0059DD11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +36,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2405B5162C971052001E9FCB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2405B5132C970E69001E9FCB /* BotaoMain.swift */,
+				2405B5172C9757F4001E9FCB /* Listas.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		2452C2922C8BA99A0059DD11 = {
 			isa = PBXGroup;
 			children = (
+				2405B5162C971052001E9FCB /* Components */,
 				2452C29D2C8BA99A0059DD11 /* Tarefa facil */,
 				2452C29C2C8BA99A0059DD11 /* Products */,
 			);
@@ -139,6 +153,8 @@
 			files = (
 				2452C2A12C8BA99A0059DD11 /* ContentView.swift in Sources */,
 				2452C29F2C8BA99A0059DD11 /* Tarefa_facilApp.swift in Sources */,
+				2405B5142C970E69001E9FCB /* BotaoMain.swift in Sources */,
+				2405B5182C9757F4001E9FCB /* Listas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

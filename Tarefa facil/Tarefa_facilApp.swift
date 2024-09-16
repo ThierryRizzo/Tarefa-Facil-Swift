@@ -11,7 +11,7 @@ import SwiftUI
 struct Tarefa_facilApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Tarefa_facilView()
         }
     }
 }

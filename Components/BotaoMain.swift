@@ -8,6 +8,9 @@ struct BotaoMain: View {
     var textColor: Color
     var titleColor: Color
     var backgroundColor: Color
+    var imgWidth: Double
+    var imgheight: Double
+    var bordercolor: Color
     
     var action: () -> Void
     
@@ -19,7 +22,7 @@ struct BotaoMain: View {
                 HStack {
                     Image(systemName: icon)
                         .resizable()
-                        .frame(width: 35, height: 25)
+                        .frame(width: imgWidth, height: imgheight)
                         .foregroundColor(iconColor)
                     Spacer()
                     Text(number)
@@ -31,7 +34,7 @@ struct BotaoMain: View {
                 HStack {
                     Text(title)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .fontWeight(.semibold)
+                        .fontWeight(.medium)
                         .foregroundColor(titleColor)
                         .font(.system(size: 16))
                 }
@@ -42,7 +45,7 @@ struct BotaoMain: View {
             .cornerRadius(19)
             .overlay(
                 RoundedRectangle(cornerRadius: 19)
-                    .stroke(Color(red: 235/255, green: 235/255, blue: 235/255), lineWidth: 1)
+                    .stroke(bordercolor, lineWidth: 1)
             )
         }
     }
