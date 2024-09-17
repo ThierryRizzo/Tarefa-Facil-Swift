@@ -13,6 +13,9 @@
 		2452C2A12C8BA99A0059DD11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452C2A02C8BA99A0059DD11 /* ContentView.swift */; };
 		2452C2A32C8BA99C0059DD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452C2A22C8BA99C0059DD11 /* Assets.xcassets */; };
 		2452C2A62C8BA99C0059DD11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452C2A52C8BA99C0059DD11 /* Preview Assets.xcassets */; };
+		245EA5352C99C52500EAF16B /* ConfigHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245EA5342C99C52500EAF16B /* ConfigHome.swift */; };
+		2476D7202C98A28A00666FC2 /* AddTaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */; };
+		2476D7222C98AEE400666FC2 /* FormAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D7212C98AEE400666FC2 /* FormAddTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		2452C2A02C8BA99A0059DD11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2452C2A22C8BA99C0059DD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2452C2A52C8BA99C0059DD11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		245EA5342C99C52500EAF16B /* ConfigHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHome.swift; sourceTree = "<group>"; };
+		2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskHome.swift; sourceTree = "<group>"; };
+		2476D7212C98AEE400666FC2 /* FormAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAddTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			children = (
 				2405B5132C970E69001E9FCB /* BotaoMain.swift */,
 				2405B5172C9757F4001E9FCB /* Listas.swift */,
+				2476D7212C98AEE400666FC2 /* FormAddTask.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -67,6 +74,8 @@
 			children = (
 				2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */,
 				2452C2A02C8BA99A0059DD11 /* ContentView.swift */,
+				2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */,
+				245EA5342C99C52500EAF16B /* ConfigHome.swift */,
 				2452C2A22C8BA99C0059DD11 /* Assets.xcassets */,
 				2452C2A42C8BA99C0059DD11 /* Preview Content */,
 			);
@@ -151,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2476D7222C98AEE400666FC2 /* FormAddTask.swift in Sources */,
+				2476D7202C98A28A00666FC2 /* AddTaskHome.swift in Sources */,
 				2452C2A12C8BA99A0059DD11 /* ContentView.swift in Sources */,
+				245EA5352C99C52500EAF16B /* ConfigHome.swift in Sources */,
 				2452C29F2C8BA99A0059DD11 /* Tarefa_facilApp.swift in Sources */,
 				2405B5142C970E69001E9FCB /* BotaoMain.swift in Sources */,
 				2405B5182C9757F4001E9FCB /* Listas.swift in Sources */,

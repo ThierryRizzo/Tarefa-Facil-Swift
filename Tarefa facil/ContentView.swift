@@ -141,9 +141,9 @@ struct Tarefa_facilView: View {
                             Image(systemName: "plus.circle.fill")
                                 .resizable()
                                 .frame(width: 32, height: 32)
-                                .foregroundColor(Color(red: 200/255, green: 200/255, blue: 200/255))
+                                .foregroundColor(.coriconsBar)
                             Text("Adicionar")
-                                .foregroundColor(Color(red: 200/255, green: 200/255, blue: 200/255))
+                                .foregroundColor(.coriconsBar)
                         }
                     }
                     .frame(maxWidth: .infinity)
@@ -156,18 +156,20 @@ struct Tarefa_facilView: View {
                             Image(systemName: "person.fill")
                                 .resizable()
                                 .frame(width: 32, height: 32)
-                                .foregroundColor(Color(red: 200/255, green: 200/255, blue: 200/255))
+                                .foregroundColor(.coriconsBar)
                             Text("Perfil")
-                                .foregroundColor(Color(red: 200/255, green: 200/255, blue: 200/255))
+                                .foregroundColor(.coriconsBar)
                         }
                     }
                     .frame(maxWidth: .infinity)
                 }
                 .padding()
                 .background(.fundoBt)
-                .frame(height: 50)
+                .frame(height: 40)
             }
+            .padding(.top)
             .background(.fundoTela)
+            
         }
     
     }
