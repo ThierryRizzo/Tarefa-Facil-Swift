@@ -45,7 +45,6 @@ struct AddTaskHome: View {
             .padding(.horizontal, 20)
             .padding(.top)
             
-            
             VStack {
                 
                 TextField("Nome da tarefa", text: $name)
@@ -132,16 +131,12 @@ struct AddTaskHome: View {
                     
                     )
                 }
-                .background(.green)
+                .background(name.isEmpty ? .gray : .green)
                 .cornerRadius(19)
                 .overlay(
                     RoundedRectangle(cornerRadius: 19)
                         .stroke(.bordercor, lineWidth: 0))
                 .padding()
-                
-                
-                    
-                    
                 
                 
                 

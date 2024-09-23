@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2405B5142C970E69001E9FCB /* BotaoMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405B5132C970E69001E9FCB /* BotaoMain.swift */; };
 		2405B5182C9757F4001E9FCB /* Listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405B5172C9757F4001E9FCB /* Listas.swift */; };
+		244FBD662CA1F762006E40BE /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBD652CA1F762006E40BE /* SplashViewModel.swift */; };
+		244FBD692CA213F9006E40BE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBD682CA213F9006E40BE /* SignInView.swift */; };
+		244FBD6E2CA2167B006E40BE /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBD6D2CA2167B006E40BE /* SignInViewModel.swift */; };
+		244FBD702CA21E98006E40BE /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBD6F2CA21E98006E40BE /* SplashViewRouter.swift */; };
 		2452C29F2C8BA99A0059DD11 /* Tarefa_facilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */; };
 		2452C2A12C8BA99A0059DD11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452C2A02C8BA99A0059DD11 /* ContentView.swift */; };
 		2452C2A32C8BA99C0059DD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452C2A22C8BA99C0059DD11 /* Assets.xcassets */; };
@@ -16,11 +20,27 @@
 		245EA5352C99C52500EAF16B /* ConfigHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245EA5342C99C52500EAF16B /* ConfigHome.swift */; };
 		2476D7202C98A28A00666FC2 /* AddTaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */; };
 		2476D7222C98AEE400666FC2 /* FormAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D7212C98AEE400666FC2 /* FormAddTask.swift */; };
+		247835AC2C9D975300DF4A9C /* AcessibilidadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */; };
+		2498041D2C9DA51E00E54E7C /* InListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498041C2C9DA51E00E54E7C /* InListView.swift */; };
+		2498041F2C9F706D00E54E7C /* AddTaskInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498041E2C9F706D00E54E7C /* AddTaskInList.swift */; };
+		24B0964A2CA05A2F007D51EB /* HojeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B096492CA05A2F007D51EB /* HojeView.swift */; };
+		24B0964D2CA05C3D007D51EB /* ProgramadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0964C2CA05C3D007D51EB /* ProgramadosView.swift */; };
+		24B096502CA05CE2007D51EB /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0964F2CA05CE2007D51EB /* TodosView.swift */; };
+		24CBC34E2CA063610036DD1F /* ConcluidosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBC34D2CA063610036DD1F /* ConcluidosView.swift */; };
+		24E6015B2CA1AEF10038BD00 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6015A2CA1AEF10038BD00 /* Tarefa.swift */; };
+		24E6015D2CA1B0C30038BD00 /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6015C2CA1B0C30038BD00 /* Lista.swift */; };
+		24E6015F2CA1B3A90038BD00 /* TarefaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6015E2CA1B3A90038BD00 /* TarefaView.swift */; };
+		24E7908D2C9CD32600CAEFAE /* SplashUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E7908C2C9CD32600CAEFAE /* SplashUIState.swift */; };
+		24E7908F2C9CD42500CAEFAE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E7908E2C9CD42500CAEFAE /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2405B5132C970E69001E9FCB /* BotaoMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoMain.swift; sourceTree = "<group>"; };
 		2405B5172C9757F4001E9FCB /* Listas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listas.swift; sourceTree = "<group>"; };
+		244FBD652CA1F762006E40BE /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		244FBD682CA213F9006E40BE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		244FBD6D2CA2167B006E40BE /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		244FBD6F2CA21E98006E40BE /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
 		2452C29B2C8BA99A0059DD11 /* Tarefa facil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarefa facil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa_facilApp.swift; sourceTree = "<group>"; };
 		2452C2A02C8BA99A0059DD11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +49,18 @@
 		245EA5342C99C52500EAF16B /* ConfigHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHome.swift; sourceTree = "<group>"; };
 		2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskHome.swift; sourceTree = "<group>"; };
 		2476D7212C98AEE400666FC2 /* FormAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAddTask.swift; sourceTree = "<group>"; };
+		247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessibilidadeView.swift; sourceTree = "<group>"; };
+		2498041C2C9DA51E00E54E7C /* InListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InListView.swift; sourceTree = "<group>"; };
+		2498041E2C9F706D00E54E7C /* AddTaskInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskInList.swift; sourceTree = "<group>"; };
+		24B096492CA05A2F007D51EB /* HojeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HojeView.swift; sourceTree = "<group>"; };
+		24B0964C2CA05C3D007D51EB /* ProgramadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramadosView.swift; sourceTree = "<group>"; };
+		24B0964F2CA05CE2007D51EB /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		24CBC34D2CA063610036DD1F /* ConcluidosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcluidosView.swift; sourceTree = "<group>"; };
+		24E6015A2CA1AEF10038BD00 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
+		24E6015C2CA1B0C30038BD00 /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
+		24E6015E2CA1B3A90038BD00 /* TarefaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaView.swift; sourceTree = "<group>"; };
+		24E7908C2C9CD32600CAEFAE /* SplashUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUIState.swift; sourceTree = "<group>"; };
+		24E7908E2C9CD42500CAEFAE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,14 +80,56 @@
 				2405B5132C970E69001E9FCB /* BotaoMain.swift */,
 				2405B5172C9757F4001E9FCB /* Listas.swift */,
 				2476D7212C98AEE400666FC2 /* FormAddTask.swift */,
+				24E6015E2CA1B3A90038BD00 /* TarefaView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		244FBD642CA1F743006E40BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				244FBD652CA1F762006E40BE /* SplashViewModel.swift */,
+				244FBD6F2CA21E98006E40BE /* SplashViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		244FBD672CA213D9006E40BE /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				244FBD6A2CA2141D006E40BE /* View */,
+				244FBD6B2CA21423006E40BE /* ViewModel */,
+				244FBD6C2CA2142C006E40BE /* Model */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		244FBD6A2CA2141D006E40BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				244FBD682CA213F9006E40BE /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		244FBD6B2CA21423006E40BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				244FBD6D2CA2167B006E40BE /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		244FBD6C2CA2142C006E40BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2452C2922C8BA99A0059DD11 = {
 			isa = PBXGroup;
 			children = (
-				2405B5162C971052001E9FCB /* Components */,
 				2452C29D2C8BA99A0059DD11 /* Tarefa facil */,
 				2452C29C2C8BA99A0059DD11 /* Products */,
 			);
@@ -72,10 +146,14 @@
 		2452C29D2C8BA99A0059DD11 /* Tarefa facil */ = {
 			isa = PBXGroup;
 			children = (
+				244FBD672CA213D9006E40BE /* SignIn */,
+				24E601592CA1AEC50038BD00 /* Classes */,
+				24B096452CA02FEC007D51EB /* MenuHome */,
+				24B096442CA02FC8007D51EB /* AddHome */,
+				24B096432CA02FAE007D51EB /* Home */,
+				24E790892C9CD2D000CAEFAE /* Splash */,
+				2405B5162C971052001E9FCB /* Components */,
 				2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */,
-				2452C2A02C8BA99A0059DD11 /* ContentView.swift */,
-				2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */,
-				245EA5342C99C52500EAF16B /* ConfigHome.swift */,
 				2452C2A22C8BA99C0059DD11 /* Assets.xcassets */,
 				2452C2A42C8BA99C0059DD11 /* Preview Content */,
 			);
@@ -88,6 +166,120 @@
 				2452C2A52C8BA99C0059DD11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24B096432CA02FAE007D51EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24CBC34C2CA0632A0036DD1F /* Concluidos */,
+				24B0964E2CA05CC0007D51EB /* Todos */,
+				24B0964B2CA05BF9007D51EB /* Programados */,
+				24B096482CA05A10007D51EB /* Hoje */,
+				24B096472CA0302E007D51EB /* InList */,
+				2452C2A02C8BA99A0059DD11 /* ContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		24B096442CA02FC8007D51EB /* AddHome */ = {
+			isa = PBXGroup;
+			children = (
+				2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */,
+			);
+			path = AddHome;
+			sourceTree = "<group>";
+		};
+		24B096452CA02FEC007D51EB /* MenuHome */ = {
+			isa = PBXGroup;
+			children = (
+				24B096462CA0300F007D51EB /* Acessibilidade */,
+				245EA5342C99C52500EAF16B /* ConfigHome.swift */,
+			);
+			path = MenuHome;
+			sourceTree = "<group>";
+		};
+		24B096462CA0300F007D51EB /* Acessibilidade */ = {
+			isa = PBXGroup;
+			children = (
+				247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */,
+			);
+			path = Acessibilidade;
+			sourceTree = "<group>";
+		};
+		24B096472CA0302E007D51EB /* InList */ = {
+			isa = PBXGroup;
+			children = (
+				2498041E2C9F706D00E54E7C /* AddTaskInList.swift */,
+				2498041C2C9DA51E00E54E7C /* InListView.swift */,
+			);
+			path = InList;
+			sourceTree = "<group>";
+		};
+		24B096482CA05A10007D51EB /* Hoje */ = {
+			isa = PBXGroup;
+			children = (
+				24B096492CA05A2F007D51EB /* HojeView.swift */,
+			);
+			path = Hoje;
+			sourceTree = "<group>";
+		};
+		24B0964B2CA05BF9007D51EB /* Programados */ = {
+			isa = PBXGroup;
+			children = (
+				24B0964C2CA05C3D007D51EB /* ProgramadosView.swift */,
+			);
+			path = Programados;
+			sourceTree = "<group>";
+		};
+		24B0964E2CA05CC0007D51EB /* Todos */ = {
+			isa = PBXGroup;
+			children = (
+				24B0964F2CA05CE2007D51EB /* TodosView.swift */,
+			);
+			path = Todos;
+			sourceTree = "<group>";
+		};
+		24CBC34C2CA0632A0036DD1F /* Concluidos */ = {
+			isa = PBXGroup;
+			children = (
+				24CBC34D2CA063610036DD1F /* ConcluidosView.swift */,
+			);
+			path = Concluidos;
+			sourceTree = "<group>";
+		};
+		24E601592CA1AEC50038BD00 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24E6015A2CA1AEF10038BD00 /* Tarefa.swift */,
+				24E6015C2CA1B0C30038BD00 /* Lista.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24E790892C9CD2D000CAEFAE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				24E7908B2C9CD2F700CAEFAE /* View */,
+				244FBD642CA1F743006E40BE /* ViewModel */,
+				24E7908A2C9CD2F100CAEFAE /* Model */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		24E7908A2C9CD2F100CAEFAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24E7908C2C9CD32600CAEFAE /* SplashUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24E7908B2C9CD2F700CAEFAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24E7908E2C9CD42500CAEFAE /* SplashView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,13 +352,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244FBD702CA21E98006E40BE /* SplashViewRouter.swift in Sources */,
+				24E7908D2C9CD32600CAEFAE /* SplashUIState.swift in Sources */,
+				24B0964A2CA05A2F007D51EB /* HojeView.swift in Sources */,
+				2498041F2C9F706D00E54E7C /* AddTaskInList.swift in Sources */,
 				2476D7222C98AEE400666FC2 /* FormAddTask.swift in Sources */,
 				2476D7202C98A28A00666FC2 /* AddTaskHome.swift in Sources */,
 				2452C2A12C8BA99A0059DD11 /* ContentView.swift in Sources */,
+				247835AC2C9D975300DF4A9C /* AcessibilidadeView.swift in Sources */,
+				24E6015B2CA1AEF10038BD00 /* Tarefa.swift in Sources */,
+				244FBD6E2CA2167B006E40BE /* SignInViewModel.swift in Sources */,
 				245EA5352C99C52500EAF16B /* ConfigHome.swift in Sources */,
 				2452C29F2C8BA99A0059DD11 /* Tarefa_facilApp.swift in Sources */,
+				24E6015F2CA1B3A90038BD00 /* TarefaView.swift in Sources */,
 				2405B5142C970E69001E9FCB /* BotaoMain.swift in Sources */,
+				24B096502CA05CE2007D51EB /* TodosView.swift in Sources */,
 				2405B5182C9757F4001E9FCB /* Listas.swift in Sources */,
+				2498041D2C9DA51E00E54E7C /* InListView.swift in Sources */,
+				244FBD692CA213F9006E40BE /* SignInView.swift in Sources */,
+				244FBD662CA1F762006E40BE /* SplashViewModel.swift in Sources */,
+				24CBC34E2CA063610036DD1F /* ConcluidosView.swift in Sources */,
+				24B0964D2CA05C3D007D51EB /* ProgramadosView.swift in Sources */,
+				24E7908F2C9CD42500CAEFAE /* SplashView.swift in Sources */,
+				24E6015D2CA1B0C30038BD00 /* Lista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +516,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,9 +524,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Thierry-Rizzo.Tarefa-facil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -337,6 +550,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,9 +558,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Thierry-Rizzo.Tarefa-facil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

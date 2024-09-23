@@ -12,11 +12,11 @@ struct BotaoMain: View {
     var imgheight: Double
     var bordercolor: Color
     
-    var action: () -> Void
+    var action: (() -> Void)? // Agora é um closure opcional
     
     var body: some View {
         Button(action: {
-            action()
+            action?() // Chama a ação se estiver definida
         }) {
             VStack {
                 HStack {
