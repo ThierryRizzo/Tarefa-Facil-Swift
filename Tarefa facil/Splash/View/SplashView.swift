@@ -20,8 +20,8 @@ struct SplashView: View {
                 viewModel.signInView()
 
             case .goToHomeScreen:
-                Text("Home Screen")
-
+                viewModel.HomeView()
+                
             case .error(let msg):
                 // Atualiza o estado de exibição do alerta
                 loadingView()

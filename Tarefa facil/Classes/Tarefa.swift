@@ -7,12 +7,14 @@ class Tarefa: ObservableObject, Identifiable {
     var data: Date
     var hora: String
     @Published var isCompleted: Bool // Usamos @Published para que o SwiftUI observe as mudanças
-    
-    init(titulo: String, data: Date, hora: String, isCompleted: Bool = false) {
+    weak var lista: Lista? // Lista a qual a tarefa pertence (referência fraca para evitar ciclo de retenção)
+
+    init(titulo: String, data: Date, hora: String, isCompleted: Bool = false, lista: Lista? = nil) {
         self.titulo = titulo
         self.data = data
         self.hora = hora
         self.isCompleted = isCompleted
+        self.lista = lista // Associa a tarefa a uma lista, se fornecida
     }
     
     // Formata a data para exibição

@@ -23,9 +23,12 @@
 		247835AC2C9D975300DF4A9C /* AcessibilidadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */; };
 		2498041D2C9DA51E00E54E7C /* InListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498041C2C9DA51E00E54E7C /* InListView.swift */; };
 		2498041F2C9F706D00E54E7C /* AddTaskInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498041E2C9F706D00E54E7C /* AddTaskInList.swift */; };
+		24987C2E2CAB3C3800E64992 /* SignInViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24987C2D2CAB3C3800E64992 /* SignInViewRouter.swift */; };
+		24987C302CAB3DA100E64992 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24987C2F2CAB3DA100E64992 /* HomeViewModel.swift */; };
 		24B0964A2CA05A2F007D51EB /* HojeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B096492CA05A2F007D51EB /* HojeView.swift */; };
 		24B0964D2CA05C3D007D51EB /* ProgramadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0964C2CA05C3D007D51EB /* ProgramadosView.swift */; };
 		24B096502CA05CE2007D51EB /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0964F2CA05CE2007D51EB /* TodosView.swift */; };
+		24B570B42CA9AF7A008C79F6 /* SignInUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B570B32CA9AF79008C79F6 /* SignInUIState.swift */; };
 		24CBC34E2CA063610036DD1F /* ConcluidosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CBC34D2CA063610036DD1F /* ConcluidosView.swift */; };
 		24E6015B2CA1AEF10038BD00 /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6015A2CA1AEF10038BD00 /* Tarefa.swift */; };
 		24E6015D2CA1B0C30038BD00 /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E6015C2CA1B0C30038BD00 /* Lista.swift */; };
@@ -52,9 +55,12 @@
 		247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessibilidadeView.swift; sourceTree = "<group>"; };
 		2498041C2C9DA51E00E54E7C /* InListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InListView.swift; sourceTree = "<group>"; };
 		2498041E2C9F706D00E54E7C /* AddTaskInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskInList.swift; sourceTree = "<group>"; };
+		24987C2D2CAB3C3800E64992 /* SignInViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewRouter.swift; sourceTree = "<group>"; };
+		24987C2F2CAB3DA100E64992 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		24B096492CA05A2F007D51EB /* HojeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HojeView.swift; sourceTree = "<group>"; };
 		24B0964C2CA05C3D007D51EB /* ProgramadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramadosView.swift; sourceTree = "<group>"; };
 		24B0964F2CA05CE2007D51EB /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		24B570B32CA9AF79008C79F6 /* SignInUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIState.swift; sourceTree = "<group>"; };
 		24CBC34D2CA063610036DD1F /* ConcluidosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcluidosView.swift; sourceTree = "<group>"; };
 		24E6015A2CA1AEF10038BD00 /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarefa.swift; sourceTree = "<group>"; };
 		24E6015C2CA1B0C30038BD00 /* Lista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				244FBD6D2CA2167B006E40BE /* SignInViewModel.swift */,
+				24987C2D2CAB3C3800E64992 /* SignInViewRouter.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 		244FBD6C2CA2142C006E40BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				24B570B32CA9AF79008C79F6 /* SignInUIState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 				24B096482CA05A10007D51EB /* Hoje */,
 				24B096472CA0302E007D51EB /* InList */,
 				2452C2A02C8BA99A0059DD11 /* ContentView.swift */,
+				24987C2F2CAB3DA100E64992 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -363,6 +372,7 @@
 				24E6015B2CA1AEF10038BD00 /* Tarefa.swift in Sources */,
 				244FBD6E2CA2167B006E40BE /* SignInViewModel.swift in Sources */,
 				245EA5352C99C52500EAF16B /* ConfigHome.swift in Sources */,
+				24987C2E2CAB3C3800E64992 /* SignInViewRouter.swift in Sources */,
 				2452C29F2C8BA99A0059DD11 /* Tarefa_facilApp.swift in Sources */,
 				24E6015F2CA1B3A90038BD00 /* TarefaView.swift in Sources */,
 				2405B5142C970E69001E9FCB /* BotaoMain.swift in Sources */,
@@ -372,7 +382,9 @@
 				244FBD692CA213F9006E40BE /* SignInView.swift in Sources */,
 				244FBD662CA1F762006E40BE /* SplashViewModel.swift in Sources */,
 				24CBC34E2CA063610036DD1F /* ConcluidosView.swift in Sources */,
+				24987C302CAB3DA100E64992 /* HomeViewModel.swift in Sources */,
 				24B0964D2CA05C3D007D51EB /* ProgramadosView.swift in Sources */,
+				24B570B42CA9AF7A008C79F6 /* SignInUIState.swift in Sources */,
 				24E7908F2C9CD42500CAEFAE /* SplashView.swift in Sources */,
 				24E6015D2CA1B0C30038BD00 /* Lista.swift in Sources */,
 			);

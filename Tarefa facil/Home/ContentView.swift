@@ -1,29 +1,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel: HomeViewModel
+    
+    
     var body: some View {
         NavigationView {
+            
             VStack (spacing:30){
                 
                 VStack(spacing:15) {
                     
                     HStack(spacing: 15) {
                         
-                        NavigationLink(destination: HojeView()) {
-                            BotaoMain(
-                                icon: "calendar",
-                                number: "2",
-                                title: "Hoje",
-                                iconColor: .azulicon,
-                                textColor: .cortexto,
-                                titleColor: .cortexto,
-                                backgroundColor: .fundoBt,
-                                imgWidth: 30,
-                                imgheight: 28,
-                                bordercolor: .bordercor
-                            )
-                            
-                        }
+                        
+                        BotaoMain(
+                            icon: "calendar",
+                            number: "2",
+                            title: "Hoje",
+                            iconColor: .azulicon,
+                            textColor: .cortexto,
+                            titleColor: .cortexto,
+                            backgroundColor: .fundoBt,
+                            imgWidth: 30,
+                            imgheight: 28,
+                            bordercolor: .bordercor
+                        )
                         
                         
                         
@@ -72,7 +75,7 @@ struct ContentView: View {
                         
                     }
                 }
-                //             .padding([.horizontal, .bottom])
+                
                 
                 VStack(spacing: 20){
                     
@@ -112,36 +115,39 @@ struct ContentView: View {
                     .padding(.horizontal, 20)
                     
                     
-                    
-                    VStack{
-                        
-                        Listas(title: "Tarefas Diárias",
-                               textColor: .cortexto,
-                               backgroundColor: .fundoBt,
-                               borderColor: .bordercor){
-                            print("Botão 'Concluídos' clicado")
+                    ScrollView{
+                        VStack{
+                            
+                            Listas(title: "Tarefas Diárias",
+                                   textColor: .cortexto,
+                                   backgroundColor: .fundoBt,
+                                   borderColor: .bordercor){
+                                print("Botão 'Concluídos' clicado")
+                            }
+                            
+                            Listas(title: "Remédios",
+                                   textColor: .cortexto,
+                                   backgroundColor: .fundoBt,
+                                   borderColor: .bordercor){
+                                print("Botão 'Concluídos' clicado")
+                            }
+                            
+                            Listas(title: "Trabalho",
+                                   textColor: .cortexto,
+                                   backgroundColor: .fundoBt,
+                                   borderColor: .bordercor){
+                                print("Botão 'Concluídos' clicado")
+                            }
+                            
+                            
+                            
                         }
-                        
-                        Listas(title: "Remédios",
-                               textColor: .cortexto,
-                               backgroundColor: .fundoBt,
-                               borderColor: .bordercor){
-                            print("Botão 'Concluídos' clicado")
-                        }
-                        
-                        Listas(title: "Trabalho",
-                               textColor: .cortexto,
-                               backgroundColor: .fundoBt,
-                               borderColor: .bordercor){
-                            print("Botão 'Concluídos' clicado")
-                        }
-                        
                     }
                     
                 }
                 
                 
-                Spacer()
+                //                Spacer()
                 
                 HStack {
                     
@@ -195,16 +201,19 @@ struct ContentView: View {
             }
             .padding(.top)
             .background(.fundoTela)
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
-        }
-        
-    
     }
+    
+    
+}
 
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewModel: HomeViewModel())
     }
 }
