@@ -11,6 +11,7 @@
 		2405B5182C9757F4001E9FCB /* Listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405B5172C9757F4001E9FCB /* Listas.swift */; };
 		241F1CC22CAF0E9600937973 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F1CC12CAF0E9600937973 /* SignUpView.swift */; };
 		241F1CC72CAF0EEF00937973 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F1CC62CAF0EEF00937973 /* SignUpViewModel.swift */; };
+		2429F1B92CB56BFB00B6503B /* Splash Screen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2429F1B82CB56BFB00B6503B /* Splash Screen.mp4 */; };
 		244CC7102CB0005F003DA761 /* SignUpUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CC70F2CB0005F003DA761 /* SignUpUIState.swift */; };
 		244CC7122CB0027C003DA761 /* SignUpViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CC7112CB0027C003DA761 /* SignUpViewRouter.swift */; };
 		244FBD662CA1F762006E40BE /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBD652CA1F762006E40BE /* SplashViewModel.swift */; };
@@ -25,6 +26,7 @@
 		2476D7202C98A28A00666FC2 /* AddTaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */; };
 		2476D7222C98AEE400666FC2 /* FormAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D7212C98AEE400666FC2 /* FormAddTask.swift */; };
 		247835AC2C9D975300DF4A9C /* AcessibilidadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */; };
+		248FC86E2CB31A3800005BEF /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FC86D2CB31A3800005BEF /* Gender.swift */; };
 		2498041D2C9DA51E00E54E7C /* InListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498041C2C9DA51E00E54E7C /* InListView.swift */; };
 		2498041F2C9F706D00E54E7C /* AddTaskInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498041E2C9F706D00E54E7C /* AddTaskInList.swift */; };
 		24987C2E2CAB3C3800E64992 /* SignInViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24987C2D2CAB3C3800E64992 /* SignInViewRouter.swift */; };
@@ -46,6 +48,7 @@
 		2405B5172C9757F4001E9FCB /* Listas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listas.swift; sourceTree = "<group>"; };
 		241F1CC12CAF0E9600937973 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		241F1CC62CAF0EEF00937973 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		2429F1B82CB56BFB00B6503B /* Splash Screen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Splash Screen.mp4"; sourceTree = "<group>"; };
 		244CC70F2CB0005F003DA761 /* SignUpUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUIState.swift; sourceTree = "<group>"; };
 		244CC7112CB0027C003DA761 /* SignUpViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewRouter.swift; sourceTree = "<group>"; };
 		244FBD652CA1F762006E40BE /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskHome.swift; sourceTree = "<group>"; };
 		2476D7212C98AEE400666FC2 /* FormAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAddTask.swift; sourceTree = "<group>"; };
 		247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessibilidadeView.swift; sourceTree = "<group>"; };
+		248FC86D2CB31A3800005BEF /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		2498041C2C9DA51E00E54E7C /* InListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InListView.swift; sourceTree = "<group>"; };
 		2498041E2C9F706D00E54E7C /* AddTaskInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskInList.swift; sourceTree = "<group>"; };
 		24987C2D2CAB3C3800E64992 /* SignInViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewRouter.swift; sourceTree = "<group>"; };
@@ -134,6 +138,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2429F1B72CB56B9000B6503B /* Midias */ = {
+			isa = PBXGroup;
+			children = (
+				2429F1B82CB56BFB00B6503B /* Splash Screen.mp4 */,
+			);
+			path = Midias;
+			sourceTree = "<group>";
+		};
 		244FBD642CA1F743006E40BE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +209,7 @@
 		2452C29D2C8BA99A0059DD11 /* Tarefa facil */ = {
 			isa = PBXGroup;
 			children = (
+				2429F1B72CB56B9000B6503B /* Midias */,
 				241F1CC02CAF0E6E00937973 /* SignUp */,
 				244FBD672CA213D9006E40BE /* SignIn */,
 				24E601592CA1AEC50038BD00 /* Classes */,
@@ -204,6 +217,7 @@
 				24B096442CA02FC8007D51EB /* AddHome */,
 				24B096432CA02FAE007D51EB /* Home */,
 				24E790892C9CD2D000CAEFAE /* Splash */,
+				248FC86B2CB31A0500005BEF /* Common */,
 				2405B5162C971052001E9FCB /* Components */,
 				2452C29E2C8BA99A0059DD11 /* Tarefa_facilApp.swift */,
 				2452C2A22C8BA99C0059DD11 /* Assets.xcassets */,
@@ -218,6 +232,22 @@
 				2452C2A52C8BA99C0059DD11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		248FC86B2CB31A0500005BEF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				248FC86C2CB31A2300005BEF /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		248FC86C2CB31A2300005BEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				248FC86D2CB31A3800005BEF /* Gender.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		24B096432CA02FAE007D51EB /* Home */ = {
@@ -395,6 +425,7 @@
 			files = (
 				2452C2A62C8BA99C0059DD11 /* Preview Assets.xcassets in Resources */,
 				2452C2A32C8BA99C0059DD11 /* Assets.xcassets in Resources */,
+				2429F1B92CB56BFB00B6503B /* Splash Screen.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +466,7 @@
 				24B570B42CA9AF7A008C79F6 /* SignInUIState.swift in Sources */,
 				24E7908F2C9CD42500CAEFAE /* SplashView.swift in Sources */,
 				24E6015D2CA1B0C30038BD00 /* Lista.swift in Sources */,
+				248FC86E2CB31A3800005BEF /* Gender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

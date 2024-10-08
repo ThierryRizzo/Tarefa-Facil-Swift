@@ -1,13 +1,17 @@
 import SwiftUI
+import AVKit
 
 struct SplashView: View {
-
-    @State private var showFirstLogo: Bool = true
+    
     @ObservedObject var viewModel: SplashViewModel
     
     // Estado para controlar a exibição do alerta
     @State private var showAlert: Bool = false
     @State private var errorMessage: String? = nil
+    
+    // AVPlayer para o vídeo da splash
+    @State private var player: AVPlayer? // Mudamos para @State
+    @State private var isVideoPlaying = true // Controla o estado do vídeo
 
     var body: some View {
         
@@ -15,15 +19,14 @@ struct SplashView: View {
             switch viewModel.uiState {
             case .loading:
                 loadingView()
-
+                
             case .goToSignInScreen:
                 viewModel.signInView()
-
+                
             case .goToHomeScreen:
                 viewModel.HomeView()
                 
             case .error(let msg):
-                // Atualiza o estado de exibição do alerta
                 loadingView()
                     .onAppear {
                         self.errorMessage = msg
@@ -33,6 +36,7 @@ struct SplashView: View {
         }
         .onAppear(perform: {
             viewModel.onAppear()
+            setupPlayer() // Configura o player quando a view aparece
         })
         .alert(isPresented: $showAlert) {
             Alert(
@@ -44,29 +48,37 @@ struct SplashView: View {
             )
         }
     }
+    
+    // Função para configurar o player
+    private func setupPlayer() {
+        guard let url = Bundle.main.url(forResource: "Splash Screen", withExtension: "mp4") else {
+            print("Video não encontrado")
+            return
+        }
+        
+        player = AVPlayer(url: url)
+        player?.play() // Inicie a reprodução
+        
+        // Observa a conclusão do vídeo
+        NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: player?.currentItem, queue: .main) { _ in
+            isVideoPlaying = false
+            viewModel.onAppear() // Muda o estado para ir para a SignInView
+        }
+    }
 }
 
 extension SplashView {
     
     func loadingView() -> some View {
         ZStack {
-            if showFirstLogo {
-                Image("Logo 2")
-                    .resizable()
-                    .frame(width: 300, height: 140)
-                    .transition(.opacity)
+            if let player = player {
+                VideoPlayer(player: player)
+                    .ignoresSafeArea(.all)
+                    .onAppear {
+                        player.play() // Certifique-se de que o vídeo começa a tocar
+                    }
             } else {
-                Image("Logo")
-                    .resizable()
-                    .frame(width: 300, height: 140)
-                    .transition(.opacity)
-            }
-        }
-        .onAppear {
-            Timer.scheduledTimer(withTimeInterval: 0.7, repeats: false) { _ in
-                withAnimation(.linear(duration: 0.7)) {
-                    showFirstLogo.toggle()
-                }
+                Color.white // Cor de fundo enquanto o vídeo está carregando
             }
         }
     }

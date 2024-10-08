@@ -62,28 +62,7 @@ struct SignInView: View {
                                                 .stroke(showInvalidEmailAlert ? Color.red : Color(UIColor.quaternaryLabel), lineWidth: 1)
                                         )
                                     
-                                    HStack(spacing: 2) {
-                                        Spacer()
-                                        Text("Não tem uma conta?")
-                                            .foregroundColor(.gray)
-                                        
-                                        
-                                        ZStack{
-                                            NavigationLink(
-                                                destination: viewModel.signUpView(),
-                                                tag: 1,
-                                                selection: $action,
-                                                label: { EmptyView() }
-                                            )
-                                        }
-                                        
-                                        Button("Criar conta") {
-                                            self.action = 1
-                                        }
-                                        .foregroundColor(.azulicon)
-                                    }
-                                    .padding(.trailing, 30)
-                                    .font(.footnote)
+                                    
                                 }
                                 
                                 // Botão de Entrar
@@ -112,6 +91,36 @@ struct SignInView: View {
                                 .alert(isPresented: $showInvalidEmailAlert) {
                                     Alert(title: Text("Email inválido"), message: Text("Por favor, insira um email válido."), dismissButton: .default(Text("OK")))
                                 }
+                                
+                                
+                                HStack(spacing: 2) {
+                                    Spacer()
+                                    Text("Não tem uma conta?")
+                                        .foregroundColor(.gray)
+                                    
+                                    
+                                    ZStack{
+                                        NavigationLink(
+                                            destination: viewModel.signUpView(),
+                                            tag: 1,
+                                            selection: $action,
+                                            label: { EmptyView() }
+                                        )
+                                    }
+                                    
+                                    Button("Criar conta") {
+                                        self.action = 1
+                                    }
+                                    .foregroundColor(.azulicon)
+                                    
+                                    Spacer()
+                                }
+                                .font(.callout)
+                                
+                                
+                                
+                                
+                                
                             }
                             
                             Spacer()

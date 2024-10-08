@@ -6,6 +6,8 @@ struct FormView: View {
     @State private var time: Date = Date()
     @State private var selectedItem: String = ""
     @State private var isTimePickerVisible: Bool = false
+    @State var gender = Gender.male
+    
     
     let items = ["Item 1", "Item 2", "Item 3", "Item 4"] // Opções para o Picker
     
@@ -17,6 +19,8 @@ struct FormView: View {
     }
     
     var body: some View {
+        
+        
         VStack(spacing: 20) {
             // Campo para nome (String)
             TextField("Nome da tarefa", text: $name)
@@ -27,6 +31,19 @@ struct FormView: View {
             DatePicker("Data", selection: $date, displayedComponents: .date)
                 .padding()
                 .datePickerStyle(CompactDatePickerStyle())
+            
+            
+            Picker("Gender", selection: $gender){
+                ForEach(Gender.allCases, id: \.self) {
+                    value in Text(value.rawValue)
+                        .tag(value)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .frame(width: 200)
+            
+            
+            
             
             // Campo para horário como TextField
             TextField("Horário", text: Binding(
