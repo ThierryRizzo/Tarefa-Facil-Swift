@@ -53,6 +53,7 @@ struct SignInView: View {
                                         )
                                         .autocapitalization(.none) // Para garantir que o e-mail não tenha maiúsculas
                                         .keyboardType(.emailAddress) // Tipo de teclado apropriado
+                                        .autocorrectionDisabled(true)
                                     
                                     SecureField("Senha", text: $password)
                                         .padding()

@@ -35,8 +35,8 @@ struct SplashView: View {
             }
         }
         .onAppear(perform: {
-            viewModel.onAppear()
             setupPlayer() // Configura o player quando a view aparece
+//            viewModel.onAppear()
         })
         .alert(isPresented: $showAlert) {
             Alert(

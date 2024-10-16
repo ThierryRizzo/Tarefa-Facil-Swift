@@ -34,26 +34,26 @@ struct ConfigHome: View {
             
             VStack (spacing: 0){
                 
-                OptMenu(title: "Perfil", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
-                    print("Foi")
+                OptMenu(icon: "person", title: "Perfil", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
+                    print("Perfil")
                 }
                 
                 Divider()
                 
-                OptMenu(title: "Idioma", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
-                    print("Foi")
+                OptMenu(icon: "translate", title: "Idioma", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
+                    print("Perfil")
                 }
                 
                 Divider()
                 
-                OptMenu(title: "Acessibilidade", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
-                    print("Foi")
+                OptMenu(icon: "accessibility", title: "Acessibilidade", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
+                    print("Perfil")
                 }
                 
                 Divider()
                 
-                OptMenu(title: "Notificações", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
-                    print("Foi")
+                OptMenu(icon: "bell", title: "Notificações", textColor: .cortexto, backgroundColor: .fundoBt, borderColor: .bordercor) {
+                    print("Perfil")
                 }
             }
             .padding(0)

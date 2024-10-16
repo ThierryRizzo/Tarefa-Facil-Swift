@@ -23,6 +23,7 @@
 		2452C2A32C8BA99C0059DD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452C2A22C8BA99C0059DD11 /* Assets.xcassets */; };
 		2452C2A62C8BA99C0059DD11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452C2A52C8BA99C0059DD11 /* Preview Assets.xcassets */; };
 		245EA5352C99C52500EAF16B /* ConfigHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245EA5342C99C52500EAF16B /* ConfigHome.swift */; };
+		247007F22CBEA31700DFB136 /* ButtonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247007F12CBEA31600DFB136 /* ButtonMenu.swift */; };
 		2476D7202C98A28A00666FC2 /* AddTaskHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */; };
 		2476D7222C98AEE400666FC2 /* FormAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2476D7212C98AEE400666FC2 /* FormAddTask.swift */; };
 		247835AC2C9D975300DF4A9C /* AcessibilidadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */; };
@@ -61,6 +62,7 @@
 		2452C2A22C8BA99C0059DD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2452C2A52C8BA99C0059DD11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		245EA5342C99C52500EAF16B /* ConfigHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHome.swift; sourceTree = "<group>"; };
+		247007F12CBEA31600DFB136 /* ButtonMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenu.swift; sourceTree = "<group>"; };
 		2476D71F2C98A28A00666FC2 /* AddTaskHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskHome.swift; sourceTree = "<group>"; };
 		2476D7212C98AEE400666FC2 /* FormAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAddTask.swift; sourceTree = "<group>"; };
 		247835AB2C9D975300DF4A9C /* AcessibilidadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessibilidadeView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				2405B5172C9757F4001E9FCB /* Listas.swift */,
 				2476D7212C98AEE400666FC2 /* FormAddTask.swift */,
 				24E6015E2CA1B3A90038BD00 /* TarefaView.swift */,
+				247007F12CBEA31600DFB136 /* ButtonMenu.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -106,9 +109,9 @@
 		241F1CC02CAF0E6E00937973 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				241F1CC52CAF0EC000937973 /* Model */,
-				241F1CC42CAF0EB400937973 /* ViewModel */,
 				241F1CC32CAF0EAA00937973 /* View */,
+				241F1CC42CAF0EB400937973 /* ViewModel */,
+				241F1CC52CAF0EC000937973 /* Model */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				24987C302CAB3DA100E64992 /* HomeViewModel.swift in Sources */,
 				24B0964D2CA05C3D007D51EB /* ProgramadosView.swift in Sources */,
 				24B570B42CA9AF7A008C79F6 /* SignInUIState.swift in Sources */,
+				247007F22CBEA31700DFB136 /* ButtonMenu.swift in Sources */,
 				24E7908F2C9CD42500CAEFAE /* SplashView.swift in Sources */,
 				24E6015D2CA1B0C30038BD00 /* Lista.swift in Sources */,
 				248FC86E2CB31A3800005BEF /* Gender.swift in Sources */,

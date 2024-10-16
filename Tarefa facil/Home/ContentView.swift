@@ -46,7 +46,7 @@ struct ContentView: View {
                     }
                     
                     HStack(spacing: 15){
-                        BotaoMain(icon: "tray.fill",
+                        BotaoMain(icon: "tray.2.fill",
                                   number: "9",
                                   title: "Todos",
                                   iconColor: .orange,
@@ -185,11 +185,11 @@ struct ContentView: View {
                         // Ação para ir ao perfil
                     }) {
                         VStack {
-                            Image(systemName: "person.fill")
+                            Image(systemName: "gearshape.fill")
                                 .resizable()
                                 .frame(width: 32, height: 32)
                                 .foregroundColor(.coriconsBar)
-                            Text("Perfil")
+                            Text("Config.")
                                 .foregroundColor(.coriconsBar)
                         }
                     }

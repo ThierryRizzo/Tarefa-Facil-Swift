@@ -6,10 +6,33 @@
 //
 
 import SwiftUI
+import Combine
 
 class SignInViewModel: ObservableObject {
     
+    private var cancellable: AnyCancellable?
+    
+    let publisher = PassthroughSubject<Bool, Never>()
+    
+    
+    
     @Published var uiState: SignInUIState = .none
+    
+    
+    init() {
+        cancellable = publisher.sink { value in
+            print ("Usuário criado com sucesso! \(value)")
+            if value {
+                self.uiState = .goToHomeScreen
+            }
+        }
+    }
+    
+    
+    deinit {
+        
+    }
+    
     
     func login (email: String, password: String){
         
@@ -30,7 +53,7 @@ extension SignInViewModel {
     }
     
     func signUpView() -> some View {
-        return SignInViewRouter.makeSignUpView()
+        return SignInViewRouter.makeSignUpView(publisher: publisher)
     }
 }
 

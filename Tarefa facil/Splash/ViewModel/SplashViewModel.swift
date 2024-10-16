@@ -30,7 +30,7 @@ extension SplashViewModel {
 
 extension SplashViewModel {
     func HomeView() -> some View {
-        return SplashViewRouter.makeSignInView()
+        return SplashViewRouter.makeHomeView()
     }
     
 }

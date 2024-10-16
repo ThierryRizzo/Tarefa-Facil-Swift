@@ -1,6 +1,7 @@
 import SwiftUI
 
-struct Listas: View {
+struct OptMenu: View {
+    var icon: String
     var title: String
     var textColor: Color
     var backgroundColor: Color
@@ -12,28 +13,33 @@ struct Listas: View {
             action()
         }) {
             HStack {
-                Text(title)
-                    .foregroundColor(textColor) // Cor do texto
-                    .fontWeight(.medium)
+                HStack(spacing: 10){
+                    Image(systemName: icon )
+                        .foregroundColor(textColor)
+                        .frame(maxWidth: 20)
+                    Text(title)
+                        .foregroundColor(textColor) // Cor do texto
+                        .fontWeight(.medium)
+                }
+            
                 Spacer()
                 Image(systemName: "chevron.right")
                     .foregroundColor(textColor) // Cor do ícone (mesma do texto)
             }
             .padding()
-            .background(backgroundColor) // Cor de fundo
-            .cornerRadius(19)
-            .frame(width: 358, height: 51)
-            .overlay(
-                RoundedRectangle(cornerRadius: 19)
-                    .stroke(borderColor, lineWidth: 1) // Cor da borda
-            )
+            .background(backgroundColor)
+            .frame(width: .infinity, height: .infinity)
+            
+            
         }
+        
     }
 }
 
-struct Listas_Previews: PreviewProvider {
+struct OptMenu_Previews: PreviewProvider {
     static var previews: some View {
-        Listas(
+        OptMenu(
+            icon: "checkmark.circle.fill",
             title: "Tarefas diárias",
             textColor: .black,
             backgroundColor: .white,
@@ -43,10 +49,3 @@ struct Listas_Previews: PreviewProvider {
         }
     }
 }
-
-
-
-
-
-
-
